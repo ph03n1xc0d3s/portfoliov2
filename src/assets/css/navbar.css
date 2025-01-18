@@ -4,7 +4,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Montserrat', sans-serif ;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .App-header .main-navbar {
@@ -12,7 +12,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    background-color: #000000;
+    background-color: #252A34;
 }
 
 .App-header .main-navbar .name__logo .name {
@@ -30,4 +30,8 @@
     color: #FFFFFF;
     text-decoration: none;
     font-size: 14px;
+}
+
+.App-header .main-navbar .ul--list li a:hover {
+    color: #bababa;
 }

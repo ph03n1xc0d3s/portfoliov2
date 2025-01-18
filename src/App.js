@@ -1,4 +1,6 @@
+import MainContainer from "./components/MainContainer";
 import Navbar from "./components/Navbar";
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -6,9 +8,8 @@ function App() {
       <header className="App-header">
         <Navbar />
       </header>
-      <div className="main-container">
-        
-      </div>
+      <MainContainer />
+      <Services />
     </div>
   );
 }

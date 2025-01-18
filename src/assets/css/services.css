@@ -1,0 +1,18 @@
+.services-container{
+    height: 500px;
+    background-color: #EAEAEA;
+}
+
+.services-container .container-heading{
+    padding: 18px;
+}
+.services-container .container-heading .heading{
+    text-align: center;
+    font-size: 34px;
+    color: #252A34;
+    font-family: 'Inter', sans-serif;
+}
+.services-container .container-heading p{
+    text-align: center;
+    font-size: 16px;
+}

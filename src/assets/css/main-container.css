@@ -1,0 +1,41 @@
+.main-container {
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252A34;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-container .text-container {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.main-container .text-container .main-container-text {
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: #EAEAEA;
+}
+
+.main-container .text-container p {
+    color: #EAEAEA;
+}
+
+.main-container .cta-button {
+    display: block;
+}
+
+.main-container .cta-button button {
+    padding: 8px 18px;
+    font-size: 14px;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    background-color: #344CB7;
+    color: #eaeaea;
+    border: none;
+}
