@@ -16,3 +16,13 @@
     text-align: center;
     font-size: 16px;
 }
+
+
+@media(max-width: 576px) {
+    .services-container .container-heading .heading{
+        font-size: 28px;
+    }
+    .services-container .container-heading p{
+        font-size: 14px;
+    }
+}
